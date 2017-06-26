@@ -28,7 +28,12 @@ sudo apt install original-awk
 
 Alternatively, you can install **Synaptic** (which is the graphical version of
  GTK+ and APT) from the **Ubuntu Software Center** Application. it will allow
- you to install original-awk without using the **Terminal**.  
+ you to install original-awk without using the **Terminal**.
+
+Gff3ToBed has to be executable. to make a script executable type the following command in the Terminal:
+```bash
+sudo chmod +x Gff3ToBed
+```
 
 ## How to use it ?
 ### How does it work ? 
@@ -135,6 +140,13 @@ chr1	30365	30503	ENSEMBL	gene	+	ENSG00000284332.1
 chr1	34553	36081	HAVANA	gene	-	ENSG00000237613.2
 chr1	52472	53312	HAVANA	gene	+	ENSG00000268020.3
 
+```
+
+## Additionnal
+To display the help  and more examples in the terminal:
+
+```bash
+./Gff3ToBed -h
 ```
 
 ## Copyrights: "Copyleft".
