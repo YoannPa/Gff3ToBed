@@ -45,8 +45,9 @@ chr1	HAVANA	exon	13221	14409	.	+	.	ID=exon:ENST00000456328.2:3;Parent=ENST000004
 chr1	HAVANA	transcript	12010	13670	.	+	.	ID=ENST00000450305.2;Parent=ENSG00000223972.5;gene_id=ENSG00000223972.5;transcript_id=ENST00000450305.2;gene_type=transcribed_unprocessed_pseudogene;gene_name=DDX11L1;transcript_type=transcribed_unprocessed_pseudogene;transcript_name=DDX11L1-001;level=2;transcript_support_level=NA;ont=PGO:0000005,PGO:0000019;tag=basic;havana_gene=OTTHUMG00000000961.2;havana_transcript=OTTHUMT00000002844.2
 chr1	HAVANA	exon	12010	12057	.	+	.	ID=exon:ENST00000450305.2:1;Parent=ENST00000450305.2;gene_id=ENSG00000223972.5;transcript_id=ENST00000450305.2;gene_type=transcribed_unprocessed_pseudogene;gene_name=DDX11L1;transcript_type=transcribed_unprocessed_pseudogene;transcript_name=DDX11L1-001;exon_number=1;exon_id=ENSE00001948541.1;level=2;transcript_support_level=NA;ont=PGO:0000005,PGO:0000019;tag=basic;havana_gene=OTTHUMG00000000961.2;havana_transcript=OTTHUMT00000002844.2
 ```
-<br>
+
 **Bed Format:**
+
 ```
 chr1	11868	14409	HAVANA	gene	+	ENSG00000223972.5	DDX11L1
 chr1	11868	14409	HAVANA	transcript	+	ENST00000456328.2	DDX11L1
