@@ -1,7 +1,7 @@
 # Gff3ToBed
-## Convert and Extract Specific Genomic Data from a Gff3 file to a Bed file.   
-<br>
-**Authors: PAGEAUD Y.**
+## Convert and Extract Specific Genomic Data from a Gff3 file to a Bed file.
+
+**Author: PAGEAUD Y.**
 
 **1-** [**DKFZ, Germany.**](http://www.dkfz.de/)
 
