@@ -1,14 +1,18 @@
 # Gff3ToBed
 ## Convert and Extract Specific Genomic Data from a Gff3 file to a Bed file.   
 <br>
-**Authors: PAGEAUD Y.** 
-**1-** [**DKFZ, Germany.**](http://www.dkfz.de/) 
+**Authors: PAGEAUD Y.**
+
+**1-** [**DKFZ, Germany.**](http://www.dkfz.de/)
+
 **2-** [**Université Paris Diderot - Paris 7, France.**](http://www.univ-paris-diderot.fr/) 
  
-**Version: 1.1** 
-**Compatibility: Linux (Ubuntu 16.04)** 
-**Last Update: 22/06/2017** 
- 
+**Version: 1.1**
+
+**Compatibility: Linux (Ubuntu 16.04)**
+
+**Last Update: 22/06/2017**
+
 ## Short description:
 Gff3ToBed is a shell script using awk to extract and format specific genomic
  data contained in a Gff3 (1-based) file to a Bed (0-Based) file.  
