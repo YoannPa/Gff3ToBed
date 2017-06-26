@@ -78,13 +78,14 @@ chr1	12009	12057	HAVANA	exon	+	ENST00000450305.2	DDX11L1
 chr1	12612	12721	HAVANA	exon	+	ENST00000456328.2	DDX11L1
 chr1	13220	14409	HAVANA	exon	+	ENST00000456328.2	DDX11L1
 ```
-<br>
+
 ### Feature and Biotype Specific Extraction
+
 Contrary to gff2bed (BEDOPS), when converting your Gff3 to Bed you can specify
  features and biotypes matching the data you would like to extract.  
 This option makes Gff3ToBed extremely fast for the file conversion, much faster
- than gff2bed.  
-<br>
+ than gff2bed.
+ 
 **Example: Extract to Bed only genes giving rRNA**
 ```
 ./Gff3ToBed.sh gencode.v26.annotation.gff3 gff3 gene rRNA both
@@ -97,13 +98,13 @@ chr1	39154163	39154296	ENSEMBL	gene	-	ENSG00000222378.1	RNA5SP44
 chr1	41466936	41467028	ENSEMBL	gene	-	ENSG00000252563.1	RNA5SP45
 chr1	43196416	43196536	ENSEMBL	gene	+	ENSG00000199240.1	RNA5SP46
 ```
-<br>
+
 ### Support .gff3 and .gff3.gz archive
 To use Gff3ToBed you do not have to extract your .gff3.gz archive.  
 It is especially convenient if your are working on large gff3 files.  
 Gff3ToBed is also faster when working on gff3.gz archive.  
 Consequently, the output file will be a bed.gz archive.  
-<br>
+
 **Example: Extract to Bed all data from a .gff3.gz archive to a bed.gz archive**
 ```
 ./Gff3ToBed.sh gencode.v26.annotation.gff3.gz gz all both
@@ -116,12 +117,12 @@ chr1	12009	12057	HAVANA	exon	+	ENST00000450305.2	DDX11L1
 chr1	12612	12721	HAVANA	exon	+	ENST00000456328.2	DDX11L1
 chr1	13220	14409	HAVANA	exon	+	ENST00000456328.2	DDX11L1
 ```
-<br>
+
 ### Select which IDs you want in your Bed file
 Additionally, Gff3ToBed let you choose between HGNC (HUGO Gene Nomenclature Committee)
  and Ensembl IDs for your output Bed file.  
 You can either get HGNC IDs, Ensembl IDs, or both IDs in your output Bed file.  
-<br>
+
 **Example: Get all genes with their Ensembl IDs in a Bed file**
 ```
 ./Gff3ToBed.sh gencode.v26.annotation.gff3 gff3 gene all ens
@@ -135,10 +136,10 @@ chr1	34553	36081	HAVANA	gene	-	ENSG00000237613.2
 chr1	52472	53312	HAVANA	gene	+	ENSG00000268020.3
 
 ```
-<br>
+
 ## Copyrights: "Copyleft".
 Source code is shared and can be used and modify freely by everyone wanting to improve it.  
-<br>
+
 ## Report an error / Ask a question:
 **E-mail:** [**yoann.pageaud@gmail.com**](yoann.pageaud@gmail.com) /
  [**y.pageaud@dkfz-heidelberg.de**](y.pageaud@dkfz-heidelberg.de)
